@@ -1,0 +1,324 @@
+/*Variables*/
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  background-color: whitesmoke;
+}
+
+.block0 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: forestgreen;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block0 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block0 button:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+.block1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: skyblue;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block1 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block1 button:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+.block2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: forestgreen;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block2 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block2 button:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+.block3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: skyblue;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block3 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block3 button:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+.block4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: forestgreen;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block4 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block4 button:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+.block5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: skyblue;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block5 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block5 button:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+.block6 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: forestgreen;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block6 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block6 button:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+.block7 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: skyblue;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block7 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block7 button:hover {
+  background-color: skyblue;
+  color: white;
+}
+
+.block8 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: forestgreen;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block8 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block8 button:hover {
+  background-color: forestgreen;
+  color: white;
+}
+
+.block9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  font-family: fantasy;
+  background-color: skyblue;
+  width: 80%;
+  padding: 2rem;
+  gap: 0.5rem;
+  border-radius: 5px;
+  font-size: 3rem;
+  color: white;
+  flex-shrink: unset;
+}
+.block9 button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border: 1px solid white;
+  transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  -o-transition: all 0.3s;
+}
+.block9 button:hover {
+  background-color: skyblue;
+  color: white;
+}/*# sourceMappingURL=App.module.css.map */
